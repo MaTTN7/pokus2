@@ -13,7 +13,10 @@ namespace CviceniL1
             Console.WriteLine("Ahoj, jak se jmenujete?");
             string jmeno = Console.ReadLine();
             Console.WriteLine("Jaký jsi?");
-
+            string vlastnost = Console.ReadLine();
+            vlastnost = vlastnost.ToLower();
+            Console.WriteLine(jmeno + " je " + vlastnost + ".");
+            Console.ReadKey();
         }
     }
 }
