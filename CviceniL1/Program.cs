@@ -10,7 +10,7 @@ namespace CviceniL1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ahoj, jak se jmenuješ?");
+            Console.WriteLine("Ahoj, jak se jmenujete?");
             string jmeno = Console.ReadLine();
             Console.WriteLine("Jaký jsi?");
             string vlastnost = Console.ReadLine();
